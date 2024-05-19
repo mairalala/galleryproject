@@ -1,5 +1,6 @@
 import React from 'react'
 import Cobaya1 from '../images/cobaya.jpg'
+
 const Cobaya = () => {
   return (
     <div>
