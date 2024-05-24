@@ -1,10 +1,10 @@
 import React from 'react'
 import cuyos1 from '../images/cuyos.jpg'
 
-const Cuyos = () => {
+const Cuyos = ({ className }) => {
   return (
-    <div>
-        <img src={cuyos1} alt="Cuyos de color amarillento o cafle claroo con manyas negras en l acara y un cuy blanco con una mancha cafe en la cara" />
+    <div className={`image-container ${className}`}>
+        <img src={cuyos1} alt="Cuyos de color amarillento o cafle claroo con manyas negras en l acara y un cuy blanco con una mancha cafe en la cara" className="image"/>
     </div>
   )
 }

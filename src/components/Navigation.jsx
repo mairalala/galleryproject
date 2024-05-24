@@ -15,63 +15,63 @@ import Ima8 from './Ima8'
 
 const Navigation = () => {
   return (
-    <div>
-        <Link to = "/Cobaya">
-            <figure>
+    <div className="container mt-4 father">
+        <Link to = "/Cobaya" className="links">
+            <figure className="image-size">
                 <Cobaya/>
                 <figcaption>Cobaya1</figcaption>
-            </figure>
+            </figure >
         </Link>
-        <Link to = "/Conejillodeindias">
-            <figure>
+        <Link to = "/Conejillodeindias" className="links">
+            <figure className="image-size">
                 <Conejillodeindias/>
                 <figcaption>Cobaya2</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuisbebes">
-            <figure>
+        <Link to = "/Cuisbebes" className="links">
+            <figure className="image-size">
                 <Cuisbebes/>
                 <figcaption>Cobaya3</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuiss">
-            <figure>
+        <Link to = "/Cuiss" className="links">
+            <figure className="image-size">
                 <Cuiss/>
                 <figcaption>Cobaya4</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuy">
-            <figure>
+        <Link to = "/Cuy" className="links">
+            <figure className="image-size">
                 <Cuy/>
                 <figcaption>Cobaya5</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuycafe">
-            <figure>
+        <Link to = "/Cuycafe" className="links">
+            <figure className="image-size">
                 <Cuycafe/>
                 <figcaption>Cobaya6</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuychiquito">
-            <figure>
+        <Link to = "/Cuychiquito" className="links">
+            <figure className="image-size">
                 <Cuychiquito/>
                 <figcaption>Cobaya7</figcaption>
             </figure>
         </Link>
-        <Link to = "/Ima8">
-            <figure>
+        <Link to = "/Ima8" className="links">
+            <figure className="image-size">
                 <Ima8/>
                 <figcaption>Cobaya8</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuyos">
-            <figure>
+        <Link to = "/Cuyos" className="links">
+            <figure className="image-size">
                 <Cuyos/>
                 <figcaption>Cobaya9</figcaption>
             </figure>
         </Link>
-        <Link to = "/Cuytierno">
-            <figure>
+        <Link to = "/Cuytierno" className="links">
+            <figure className="image-size">
                 <Cuytierno/>
                 <figcaption>Cobaya10</figcaption>
             </figure>

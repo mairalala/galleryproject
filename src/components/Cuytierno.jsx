@@ -1,10 +1,10 @@
 import React from 'react'
 import cuytierno1 from '../images/cuytierno.jpg'
 
-const Cuytierno = () => {
+const Cuytierno = ({ className }) => {
   return (
-    <div>
-        <img src={cuytierno1} alt="Cuy durmiendo dentro de un cama para mascotas de color verde" />
+    <div className={`image-container ${className}`}>
+        <img src={cuytierno1} alt="Cuy durmiendo dentro de un cama para mascotas de color verde" className="image"/>
     </div>
   )
 }
